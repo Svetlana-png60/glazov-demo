@@ -126,7 +126,7 @@ main { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gut); }
 
 .s-photos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding-top: clamp(56px, 8vw, 96px); }
 .s-photos figure { margin: 0; }
-.s-photos img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: var(--r); }
+.s-photos img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--r); }
 .s-photos figcaption { font-size: .82rem; color: var(--c-ink-soft); margin-top: 8px; }
 
 .s-promises { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 16px; }
@@ -193,7 +193,7 @@ main { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gut); }
   .s-steps { grid-template-columns: 1fr; }
   .s-photos { grid-template-columns: 1fr 1fr; }
   .s-photos figure:first-child { grid-column: 1 / -1; }
-  .s-photos figure:first-child img { aspect-ratio: 16 / 10; }
+  .s-photos figure:first-child img { aspect-ratio: 4 / 3; }
   .s-contacts dl div { grid-template-columns: 1fr; gap: 2px; }
   .s-send { flex-direction: column; }
   .s-dock { display: flex; gap: 8px; position: fixed; z-index: 40; left: 0; right: 0; bottom: 0; padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
